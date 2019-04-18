@@ -1,72 +1,62 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head> 
-<title> Teste aula 1 </title>
+    <!-- Para que os caracteres especiais portugueses fiquem bem nos browsers, metemos UTF-8 -->
+    <meta charset="UTF-8">
+    <title>Teste aula 1</title>
 </head>
 
 <body>
-<h1> Conhecimentos HTML
-<h2> Definição de Lorem Ipsum: </h2>    
+    <h1>Conhecimentos HTML</h1>
+    <h2>Definição de Lorem Ipsum:</h2>
 
-<p> O que é o Lorem Ipsum?
-O <strong Lorem Ipsum </strong></strong>é um texto modelo da indústria tipográfica e de impressão. 
-O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de <bold 1500 </bold></bold>, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
-</p>
+    <p>O que é o Lorem Ipsum?<br>
+    O <strong>Lorem Ipsum</strong> é um texto modelo da indústria tipográfica e de impressão. 
+    O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de <strong>1500</strong>, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.</p>
 
+    <p>Artefactos indestrutíveis:
+        <ul>
+            <li>Muralha da China</li>      
+            <li>Busto de Pablo Iglesias</li>      
+            <li>Tanque de guerra</li>      
+        </ul>
+    </p>
 
-<ul> Artefactos indestrutíveis:
-        <li> Muralha da China</li>      
-        <li> Busto de Pablo Iglesias </li>      
-        <li> Tanque de guerra </li>      
-       </ul>
+    <p>Mas o principal artefacto indestrutível é este: <a href= "https://www.youtube.com/watch?v=wyqnfHfyOII" target="_blank"> Clica aqui para descobrires!</a></p>
 
+    <!--button and form to end it--> 
+    <p>Feito por:</p>
 
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>E-mail</th>
+            </tr>       
+        </thead>    
+        <tbody>
+            <tr>
+                <td> Marcos Abreu</td>   
+                <td> marcos-breu@hotmail.com ou bookwpmarcos@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
 
-       Mas o principal artefacto indestrutível é este: <a href= "https://www.youtube.com/watch?v=wyqnfHfyOII" target="_blank"> Clica aqui para descobrires! 
-    </a>
+    <H3>Dados</H3>
+    <div>
+        <!-- Vou acrescentar um "for" para que se a pessoa clicar no label, fique com o cursor automaticamente no campo para começar a preencher. É preciso depois também acrescentar um "id" no input para que isto funcione -->
+        <label for="name">Primeiro e último nome</label>
+        <input type="text" name="Primeiro e último nome" id="name">
+    </div>
 
-<!--button and form to end it--> 
-<p>
-Feito por:
-</p>
+    <div>
+        <label for="email">E-mail</label>
+        <input type="email" name="E-mail" id="email">
+    </div>
 
-
-<table>
-<thead>
-<tr>
-                    <th>Name</th>
-                    <th>E-mail</th>
-
-</tr>       
-</thead>    
-<tbody>
-<tr>
- <td> Marcos Abreu
- <td> marcos-breu@hotmail.com ou bookwpmarcos@gmail.com</td>    
- </td>   
-</tr>
-</tbody>
-</table>
-
-<p>
-
-<H3> Dados</H3>
-</p>
-<div>
-<label> Primeiro e último nome </label>
-<input type="text" name="Primeiro e último nome">
-</div>
-
-<div>
-<label> E-mail </label>
-<input type="email" name="E-mail">
-</div>
-
-
-
-
-
+</body>
+</html>
 
 
 
